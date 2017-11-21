@@ -5,18 +5,33 @@
 .title {
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  font-size: 23px
 }
 #home {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
-h1 {
+h1.title {
   font-size: 70px;
 }
 ul {
   list-style-type: none;
   font-size: 18px;
   padding: 20px;
+  line-height: 140%
 }
 a {
   color: white;
+  font-size: 18px;
+}
+#footer {
+  text-align: left;
+  background-color: dimgrey;
+  font-size: 11px;
+  color: white;
+}
+section {
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
 }
