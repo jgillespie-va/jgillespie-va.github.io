@@ -2,11 +2,7 @@
   font-family: Helvetica;
   text-align: center;
 }
-.title {
-  color: white;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  font-size: 23px
-}
+
 #home {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
@@ -16,8 +12,22 @@ h1.title {
 ul {
   list-style-type: none;
   font-size: 18px;
-  padding: 20px;
-  line-height: 140%
+  padding: 4px;
+  line-height: 180%;
+}
+section {
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+}
+.title {
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  font-size: 23px;
+}
+br {
+line-height: 200%;
 }
 a {
   color: white;
@@ -28,10 +38,4 @@ a {
   background-color: dimgrey;
   font-size: 11px;
   color: white;
-}
-section {
-  font-weight: bold;
-}
-p {
-  font-size: 14px;
 }
